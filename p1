@@ -1,0 +1,8 @@
+from tkinter import *
+
+rt = Tk()
+lbl = Label(rt,text="Color")
+lbl.pack(side='top')
+
+rt.title("First")
+rt.mainloop()

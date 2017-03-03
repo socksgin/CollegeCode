@@ -1,0 +1,8 @@
+def wedge(nw):
+    ns = 0
+    while nw>0:
+        print(ns*' ' + nw*'W')
+        ns+=1
+        nw-=2
+
+wedge(8)

@@ -1,0 +1,14 @@
+import random
+
+def myRandom():
+    return 2*random.random() -1
+
+def main(n):
+    cirCount = 0
+    for i in range(n):
+        x = myRandom()
+        y = myRandom()
+        if x*x+y*y <=1:
+            cirCount +=1
+    print(cirCount/n*4)
+    
